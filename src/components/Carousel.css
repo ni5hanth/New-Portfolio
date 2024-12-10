@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+.home {
+  display: flex;
+  width: 100% ;
+  height: 100vh;
+  background-color: rgb(40, 42, 52);
+}
+
+.wel {
+  font-family: "Protest Guerrilla", sans-serif;
+  color: rgb(228, 228, 228);
+  margin-left: 6rem;
+}
+
+.wel-char {
+  opacity: 0;
+  transform: translateX(-30px);
+  display: inline-block;
+  animation: fadeInLeft 0.3s forwards;
+  font-size: 6em;
+}
+
+/* Keyframe for the letter animation */
+@keyframes fadeInLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.frame{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hook {
+  width: .6rem;
+  height: .6rem;
+  border: 0.2rem solid rgb(12, 12, 12);
+  border-radius: 50%;
+ 
+}
+.strings{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  
+}
+.string {
+  width: 0.1rem;
+  height: 3rem; /* Length of the string */
+  background-color: rgb(13, 13, 13);
+
+}
+
+.string-left {
+  transform: rotate(40deg);
+  
+}
+
+.string-right {
+  transform: rotate(-40deg);
+   
+}
+
+
+.profile{
+  display: flex;
+  height: 200px;
+
+  flex-direction: column;
+  margin: 6rem 0 0 22rem;
+}
+
+.image{
+  position: fixed;
+  margin-top: 3.3rem;
+  width: 8rem;
+  height: 9rem;
+  border: 0.8rem solid rgb(14, 14, 14);
+}
+
+.about-me-button{
+  color: white;
+}

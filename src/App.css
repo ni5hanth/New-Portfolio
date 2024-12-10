@@ -1,0 +1,465 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Lato:wght@400;700&family=Roboto:wght@300;400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+
+  .app {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    
+  }
+  .edu {
+    display: flex;
+    flex-direction: column;
+    padding-top: 130px;
+    padding-left: 150px;
+  }
+  
+  span {
+    font-weight: 700;
+    font-size: 25px;
+  }
+  
+  .skills {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+  }
+  
+  .topics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-top: 20px;
+  }
+  
+  .topics span {
+    background-color: #303030;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .intro {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .text-1 {
+    color: lightgray;
+    margin-top: 50px;
+    width: 350px;
+  }
+  
+  .degree {
+    margin-bottom: 60px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    background: linear-gradient(274deg, rgb(191, 189, 189) 1%, rgba(115, 113, 113, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 550px;
+    margin-top: 30px;
+    margin-left: 40rem;
+  }
+  
+  .text {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    background: linear-gradient(274deg, rgb(190, 190, 190) 1%, rgba(115, 113, 113, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 550px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    background: #9c96963c;
+  }
+  
+  .back {
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: #515151;
+    padding-left: 10px;
+    padding-top: 3px;
+    margin-left: 80rem;
+    cursor: pointer;
+  }
+  .back1{
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: #515151;
+    margin-left: 80rem;
+    padding-top: 3px;
+    cursor: pointer;
+  }
+  .back2{
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: #515151;
+    margin-left: 84rem;
+    padding-top: 10px;
+    cursor: pointer;
+  }
+ .back1:hover{
+    color:#c4c1c1;
+  }
+  .back2:hover{
+    color: #c4c1c1;
+  }
+  .back:hover{
+    color: #181818;
+  }
+  
+  .name-text {
+    font-family: 'Protest Guerrilla', sans-serif;
+    font-size: 6rem;
+    color: #a7a6a6;
+  }
+  
+  .name-text1 {
+    font-family: 'Protest Guerrilla', sans-serif;
+    font-size: 13rem;
+    color: #a7a6a6;
+  }
+  
+  .profession-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 9rem;
+    color: #242424;
+  }
+  
+  .info{
+    display: flex;
+    flex-direction: row;
+  }
+  .pic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px; /* Adjust height as needed */
+    width: 350px; /* Adjust width as needed */
+    margin: 40px 0 0 150px;
+  
+  }
+  
+  .profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+  
+  .contact{
+    padding: 10rem;
+  }
+  .social-icons{
+    display: flex;
+    gap: 20px;
+  }
+  .download-cv{
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #181818;
+    margin: 30px 0 0 0;
+  }
+  .download-cv:hover{
+    opacity: 0.8;
+  }
+  @keyframes text-animation {
+    0%, 50% {
+      transform: translateY(0);
+    }
+    25%, 75% {
+      transform: translateY(-70px);
+    }
+  }
+  
+/*skills container */
+
+.skills-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: #131313f6;
+  padding: 40px;
+}
+
+.icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+.icon-label{
+  color: rgba(216, 213, 213, 0.526);
+  margin-bottom: 20px;
+}
+
+.skills-heading {
+  margin-bottom: 30px;
+  font-family: manrope;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.skills-heading::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #9696961f;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.programming-icons{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 50px;
+}
+
+
+.program-icon{
+  cursor: pointer;
+  height: 35px;
+  width: 30px;
+  padding: 20px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+  background-color: #27272781;
+  margin-bottom: 20px;
+  background-size: 200% 200%;
+}
+
+
+
+.program-icon:hover {
+  filter: grayscale(0%);
+  animation: dynamicBackground 3s linear infinite;
+}
+
+.program-icon1{
+  cursor: pointer;
+  height: 85px;
+  width: 83px;
+  padding: 20px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+  background-color: #27272781;
+  margin-bottom: 20px;
+  background-size: 200% 200%;
+}
+
+.program-icon1:hover {
+  filter: grayscale(0%);
+  animation: dynamicBackground 3s linear infinite;
+}
+
+
+.techno{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+}
+.techno-icon {
+  cursor: pointer;
+  height: 85px;
+  width: 90px;
+  padding: 30px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+  background-color: #27272781;
+  margin-bottom: 20px;
+  background-size: 200% 200%; /* Scale the background to create the moving effect */
+}
+
+.techno-icon:hover {
+  filter: grayscale(0%);
+  animation: dynamicBackground 3s linear infinite; /* Infinite loop for the background change */
+}
+
+/* Keyframes to change the background dynamically */
+@keyframes dynamicBackground {
+  0% {
+      background-color: #2e2e2e;
+      background-position: 0% 50%;
+  }
+  50% {
+      background-color: #222222;
+      background-position: 100% 50%;
+  }
+  100% {
+      background-color: #242424;
+      background-position: 0% 50%;
+  }
+}
+/* Projects.css */
+
+.project-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  width: 100%;
+  height: 100%;
+  background-color: #1c1c1c;
+}
+
+.project-main {
+  text-align: center;
+  padding-top: 80px;
+}
+.project-main2{
+  text-align: center;
+}
+.category {
+  font-size: 1.2rem;
+  color: rgb(250, 250, 250);
+  text-transform: uppercase;
+}
+
+.project-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgb(238, 238, 238);
+  background-color: #1a1a1a;
+}
+
+.project-image-container {
+  position: relative;
+  display: inline-block;
+  padding: 80px;
+  background-color: #1a1a1a;
+  width: 100%;
+}
+
+.project-image {
+  width: 1060px;
+  height: 628px;
+  margin-left: 110px;
+  
+}
+
+.project-description {
+  
+  background-color: #1a1a1a;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.description-container {
+  max-width: 1070px;
+  margin: 30px 0 20px 90px ;
+}
+
+.description-section {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-bottom: 60px;
+}
+
+.description-title {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.description-text {
+  font-size: 1.4rem;
+  color: #b0b0b0;
+  line-height: 1.5;
+}
+
+.divider-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+.project-info {
+  padding-top: 40px;
+  border-top: 1px solid #666;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 2fr 2fr;
+  text-align: center;
+  gap: 12px;
+}
+
+.info-title {
+  font-size: 0.8rem;
+  color: #d6d6d6c4;
+  margin-bottom: 15px;
+
+}
+
+.info-text {
+  color: #f1f0f0e1;
+  
+}
+
+p{
+  font-size: 0.8rem;
+  color: #ffffffe1;
+  
+  border-radius: 10px;
+}
+
+.elements{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+
+/* cursor */
+
+.cursor-dot{
+  width: 5px;
+  height: 5px;
+  background-color: rgba(108, 108, 108, 0.378);
+}
+
+.cursor-outline{
+  width: 30px;
+  height: 30px;
+  border: 2px solid hsla(0, 0%, 51%, 0.5);
+}
+
+.cursor-dot, .cursor-outline{
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  z-index: 1;
+  pointer-events: none;
+}
+
