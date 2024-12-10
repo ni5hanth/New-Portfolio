@@ -16,7 +16,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename="/New-Portfolio">
       <div className="app">
         <Cursor />
         <Routes>
@@ -25,10 +25,9 @@ function App() {
           <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
-  
       </div>
     </Router>
-  ); 
+  );
 }
 
 export default App;
